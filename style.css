@@ -1,0 +1,68 @@
+/* Type Selector for h2 */
+h2 {
+    font-size: 2em;          /* Larger font size for headings */
+    color: navy;             /* Navy color for the text */
+    border-bottom: 2px solid #ccc; /* Underline effect */
+    margin-bottom: 10px;     /* Space below the heading */
+}
+
+/* Type Selector for h3 */
+h3 {
+    font-size: 1.5em;         /* Medium font size for sub-headings */
+    color: darkgreen;         /* Dark green color for the text */
+    margin-bottom: 8px;       /* Space below the sub-heading */
+}
+
+/* Type Selector for hr (horizontal rule) */
+hr {
+    border: 0;               /* Remove default border */
+    height: 1px;             /* Set height of the line */
+    background-color: #ccc;  /* Light gray background color */
+    margin: 20px 0;          /* Space above and below the line */
+}
+
+/* Type Selector for p */
+p {
+    font-size: 1em;          /* Normal font size for paragraphs */
+    line-height: 1.5;        /* Increased line height for readability */
+    color: #333;             /* Dark gray text color */
+    margin: 10px 0;          /* Space above and below the paragraph */
+}
+
+/* Class Selector for div */
+.container {
+    width: 80%;              /* Set width of the container */
+    margin: 0 auto;         /* Center the container */
+    padding: 20px;          /* Padding inside the container */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px;     /* Rounded corners */
+}
+
+/* ID Selector for span */
+#highlight {
+    background-color: yellow; /* Yellow background to highlight text */
+    font-weight: bold;        /* Bold text */
+}
+
+/* Attribute Selector for time */
+time[datetime] {
+    font-style: italic;       /* Italicize datetime */
+    color: gray;              /* Gray color for datetime */
+}
+
+/* Pseudo-class Selector for img */
+img:hover {
+    transform: scale(1.1);    /* Enlarge image on hover */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+/* Pseudo-class Selector for a (links) */
+a {
+    color: blue;              /* Default blue color for links */
+    text-decoration: none;    /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: darkorange;         /* Change color on hover */
+}
